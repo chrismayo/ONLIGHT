@@ -1,0 +1,30 @@
+<RCC>
+    <qresource prefix="/">
+        <file>image/beij.png</file>
+        <file>image/enter.bmp</file>
+        <file>image/enter p.bmp</file>
+        <file>image/fuhao.bmp</file>
+        <file>image/fuhao p.bmp</file>
+        <file>image/jianpan.bmp</file>
+        <file>image/jianpanbg.bmp</file>
+        <file>image/jianpanzb.bmp</file>
+        <file>image/OK.bmp</file>
+        <file>image/OK p.bmp</file>
+        <file>image/shuru.bmp</file>
+        <file>image/shuzi.bmp</file>
+        <file>image/shuzi p.bmp</file>
+        <file>image/space.bmp</file>
+        <file>image/space_e.bmp</file>
+        <file>image/space_ep.bmp</file>
+        <file>image/space p.bmp</file>
+        <file>image/ying.bmp</file>
+        <file>image/ying p.bmp</file>
+        <file>image/YOU.png</file>
+        <file>image/YOU P.png</file>
+        <file>image/zhong.bmp</file>
+        <file>image/zhong p.bmp</file>
+        <file>image/zuo.png</file>
+        <file>image/zuo P.png</file>
+        <file>china.db</file>
+    </qresource>
+</RCC>
