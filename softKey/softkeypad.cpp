@@ -6,7 +6,7 @@
 #include <QPainter>
 #include <QDebug>
 #include <QList>
-softKeyPad::softKeyPad(QWidget *parent) :
+SoftKeyPad::SoftKeyPad(QWidget *parent) :
     QWidget(parent),
     ui(new Ui::softKeyPad)
   , tipFlag(true)
@@ -46,19 +46,19 @@ softKeyPad::softKeyPad(QWidget *parent) :
     connectFunc();
 }
 
-QString softKeyPad::getInputStr()
+QString SoftKeyPad::getInputStr()
 {
     inputStr = ui->textEdit->toPlainText();
     qDebug() << inputStr;
     return inputStr;
 }
 
-softKeyPad::~softKeyPad()
+SoftKeyPad::~SoftKeyPad()
 {
     delete ui;
 }
 
-void softKeyPad::numPressed(int id)
+void SoftKeyPad::slotNumPressed(int id)
 {
     if (50 == id) {
         ui->pushButton_Space->setStyleSheet("background-image: url(:/image/space p.bmp);font-family:'Microsoft YaHei';font-size:30px");
@@ -86,7 +86,7 @@ void softKeyPad::numPressed(int id)
     }
 }
 
-void softKeyPad::numReleased(int id)
+void SoftKeyPad::slotNumReleased(int id)
 {
     if (50 == id) {
         groupButtonAll->button(id)->setStyleSheet("background-image: url(:/image/space.bmp);font-family:'Microsoft YaHei';font-size:30px");
@@ -106,7 +106,7 @@ void softKeyPad::numReleased(int id)
     }
 }
 
-void softKeyPad::addGroupButtonAll()
+void SoftKeyPad::addGroupButtonAll()
 {
     groupButtonAll = new QButtonGroup;
     groupButtonAll->addButton(ui->pushButton_0, 0);
@@ -180,17 +180,17 @@ void softKeyPad::addGroupButtonAll()
     groupButtonAll->addButton(ui->pushButton_ZH, 60);
 }
 
-void softKeyPad::connectFunc()
+void SoftKeyPad::connectFunc()
 {
-    connect(groupButtonAll, SIGNAL(buttonPressed(int)), this, SLOT(numPressed(int)));
-    connect(groupButtonAll, SIGNAL(buttonReleased(int)), this, SLOT(numReleased(int)));
-    connect(groupButtonAll, SIGNAL(buttonClicked(int)), this, SLOT(keyInputClicked(int)));
-    connect(ui->btn_rightTurn, SIGNAL(clicked()), this, SLOT(rightTurnClicked()));
-    connect(ui->btn_leftTurn, SIGNAL(clicked()), this, SLOT(leftTurnClicked()));
-    connect(groupBtnShow, SIGNAL(buttonClicked(int)), this, SLOT(chineseInputClicked(int)));
+    connect(groupButtonAll, SIGNAL(buttonPressed(int)), this, SLOT(slotNumPressed(int)));
+    connect(groupButtonAll, SIGNAL(buttonReleased(int)), this, SLOT(slotNumReleased(int)));
+    connect(groupButtonAll, SIGNAL(buttonClicked(int)), this, SLOT(slotKeyInputClicked(int)));
+    connect(ui->btn_rightTurn, SIGNAL(clicked()), this, SLOT(slotRightTurnClicked()));
+    connect(ui->btn_leftTurn, SIGNAL(clicked()), this, SLOT(slotLeftTurnClicked()));
+    connect(groupBtnShow, SIGNAL(buttonClicked(int)), this, SLOT(slotChineseInputClicked(int)));
 }
 
-void softKeyPad::setChineseShow()
+void SoftKeyPad::setChineseShow()
 {
     ui->pushButton_0->setText("0");
     ui->pushButton_1->setText("1");
@@ -244,7 +244,7 @@ void softKeyPad::setChineseShow()
     ui->pushButton_ZH->setText("zh");
 }
 
-void softKeyPad::setEnglishShow()
+void SoftKeyPad::setEnglishShow()
 {
     ui->pushButton_0->setText("0");
     ui->pushButton_1->setText("1");
@@ -300,7 +300,7 @@ void softKeyPad::setEnglishShow()
     ui->pushButton_Space_e->setHidden(false);
 }
 
-void softKeyPad::setSymbolShow()
+void SoftKeyPad::setSymbolShow()
 {
     ui->pushButton_0->setText("(");
     ui->pushButton_1->setText("~");
@@ -360,7 +360,7 @@ void softKeyPad::setSymbolShow()
 
 }
 
-void softKeyPad::setNumShow()
+void SoftKeyPad::setNumShow()
 {
     ui->pushButton_Enter->setHidden(false);
     ui->pushButton_Comma->setHidden(false);
@@ -379,7 +379,7 @@ void softKeyPad::setNumShow()
     ui->pushButton_backSlash->setHidden(true);
 }
 
-void softKeyPad::setDefaultShow()
+void SoftKeyPad::setDefaultShow()
 {
     ui->pushButton_English->setStyleSheet("background-image: url(:/image/ying.bmp);font-family:'Microsoft YaHei';font-size:30px;color:white");
     ui->pushButton_China->setStyleSheet("background-image: url(:/image/zhong.bmp);font-family:'Microsoft YaHei';font-size:30px;color:white");
@@ -387,13 +387,13 @@ void softKeyPad::setDefaultShow()
 }
 
 
-void softKeyPad::englishPressed()
+void SoftKeyPad::englishPressed()
 {
     setDefaultShow();
     ui->pushButton_English->setStyleSheet("background-image: url(:/image/ying p.bmp);font-family:'Microsoft YaHei';font-size:30px;color:white");
 }
 
-void softKeyPad::ABCShow()
+void SoftKeyPad::ABCShow()
 {
     ui->pushButton_0->setText(")");
     ui->pushButton_1->setText("!");
@@ -449,7 +449,7 @@ void softKeyPad::ABCShow()
     ui->pushButton_Space_e->setHidden(false);
 }
 
-void softKeyPad::englishButtonClicked()
+void SoftKeyPad::englishButtonClicked()
 {
     inputChoiceFlag = true;
     current_choice = KeyInput_English;
@@ -457,21 +457,21 @@ void softKeyPad::englishButtonClicked()
     setEnglishShow();
 }
 
-void softKeyPad::shiftABC()
+void SoftKeyPad::shiftABC()
 {
     ui->pushButton_RightShift->setStyleSheet("background-image: url(:/image/enter p.bmp);font-family:'Microsoft YaHei';font-size:30px");
     ui->pushButton_LeftShift->setStyleSheet("background-image: url(:/image/enter p.bmp);font-family:'Microsoft YaHei';font-size:30px");
     shiftFlag = false;
 }
 
-void softKeyPad::shiftabc()
+void SoftKeyPad::shiftabc()
 {
     ui->pushButton_RightShift->setStyleSheet("background-image: url(:/image/enter.bmp);font-family:'Microsoft YaHei';font-size:30px");
     ui->pushButton_LeftShift->setStyleSheet("background-image: url(:/image/enter.bmp);font-family:'Microsoft YaHei';font-size:30px");
     shiftFlag = true;
 }
 
-void softKeyPad::connectDatabase()
+void SoftKeyPad::connectDatabase()
 {
     db = QSqlDatabase::addDatabase("QSQLITE");
     db.setDatabaseName("china.db");
@@ -484,7 +484,7 @@ void softKeyPad::connectDatabase()
     query = QSqlQuery("china.db");
 }
 
-void softKeyPad::addGroupButtonShow()
+void SoftKeyPad::addGroupButtonShow()
 {
     groupBtnShow = new QButtonGroup;
     groupBtnShow->addButton(ui->btn1, 0);
@@ -497,7 +497,7 @@ void softKeyPad::addGroupButtonShow()
     groupBtnShow->addButton(ui->btn8, 7);
 }
 
-void softKeyPad::sqlSelect()
+void SoftKeyPad::sqlSelect()
 {
     if ("a" == singleLetter) {
         if(query.exec(QString("select word from pinyin_a where pinyin like '" + inputLetter + "%'"))) {
@@ -689,7 +689,7 @@ void softKeyPad::sqlSelect()
     listCount = list.count();    // 统计list中string的数量
 }
 
-void softKeyPad::keyInputClicked(int id)
+void SoftKeyPad::slotKeyInputClicked(int id)
 {
     if (17 == id) {   // china_button
         inputChoiceFlag = false;
@@ -723,14 +723,14 @@ void softKeyPad::keyInputClicked(int id)
             firstInputLetter = true;
         } else {
             // 发送信号
-            emit okPressSignal();
+            emit sigOkPressSignal();
             this->close();
         }
 
     }
     else if (39 == id) {  //OK 按钮下压
         //###########################################
-        emit okPressSignal();
+        emit sigOkPressSignal();
         this->close();
     } else if (13 == id) {     // BS button click
         if ((KeyInput_Chinese == current_choice) && (ui->textEdit_letter->toPlainText() != "")) {
@@ -946,7 +946,7 @@ void softKeyPad::keyInputClicked(int id)
             sqlSelect();  // SQL 语句
             ui->btn_leftTurn->setEnabled(false);
             listId = 0;
-            rightTurnClicked();
+            slotRightTurnClicked();
             setNumShow();
             setChineseShow();
             shiftabc();
@@ -1011,7 +1011,7 @@ void softKeyPad::keyInputClicked(int id)
     }
 }
 
-void softKeyPad::leftTurnClicked()
+void SoftKeyPad::slotLeftTurnClicked()
 {
     leftBtnClicked = true;
     if (true == rightBtnClicked) {
@@ -1051,13 +1051,13 @@ void softKeyPad::leftTurnClicked()
     }
 }
 
-void softKeyPad::paintEvent(QPaintEvent *)
+void SoftKeyPad::paintEvent(QPaintEvent *)
 {
     QPainter p(this);
     p.fillRect(this->rect(),QColor(28, 28, 28, 100));
 }
 
-void softKeyPad::rightTurnClicked()
+void SoftKeyPad::slotRightTurnClicked()
 {
     rightBtnClicked = true;
     if (leftBtnClicked) {
@@ -1125,7 +1125,7 @@ void softKeyPad::rightTurnClicked()
         }
     }
 }
-void softKeyPad::chineseInputClicked(int id)
+void SoftKeyPad::slotChineseInputClicked(int id)
 {
     if (firstInputFlag == true) {   // 消除提示信息
         ui->textEdit->setText("");
