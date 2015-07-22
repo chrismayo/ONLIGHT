@@ -1,0 +1,209 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/F270/!svn/ver/115/software/zynq7020/userapp/MainApp/Branches/ghl/SysConfigWidgetManager
+END
+sysconfigmanagerdichannel.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/F270/!svn/ver/115/software/zynq7020/userapp/MainApp/Branches/ghl/SysConfigWidgetManager/sysconfigmanagerdichannel.cpp
+END
+sysconfigmanagerbatchprocess.h
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/F270/!svn/ver/115/software/zynq7020/userapp/MainApp/Branches/ghl/SysConfigWidgetManager/sysconfigmanagerbatchprocess.h
+END
+sysconfigmanagercalculatechannel.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/F270/!svn/ver/115/software/zynq7020/userapp/MainApp/Branches/ghl/SysConfigWidgetManager/sysconfigmanagercalculatechannel.cpp
+END
+sysconfigmanagersavedata.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/F270/!svn/ver/115/software/zynq7020/userapp/MainApp/Branches/ghl/SysConfigWidgetManager/sysconfigmanagersavedata.cpp
+END
+sysconfigmanagerserialport.h
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/F270/!svn/ver/115/software/zynq7020/userapp/MainApp/Branches/ghl/SysConfigWidgetManager/sysconfigmanagerserialport.h
+END
+sysconfigmanagersystem.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/F270/!svn/ver/115/software/zynq7020/userapp/MainApp/Branches/ghl/SysConfigWidgetManager/sysconfigmanagersystem.h
+END
+sysconfigmanagerdochannel.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/F270/!svn/ver/115/software/zynq7020/userapp/MainApp/Branches/ghl/SysConfigWidgetManager/sysconfigmanagerdochannel.cpp
+END
+sysconfigmanagermeasure.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/F270/!svn/ver/115/software/zynq7020/userapp/MainApp/Branches/ghl/SysConfigWidgetManager/sysconfigmanagermeasure.cpp
+END
+sysconfigmanagerdisplay.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/F270/!svn/ver/115/software/zynq7020/userapp/MainApp/Branches/ghl/SysConfigWidgetManager/sysconfigmanagerdisplay.cpp
+END
+sysconfigmanagercomchannel.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/F270/!svn/ver/115/software/zynq7020/userapp/MainApp/Branches/ghl/SysConfigWidgetManager/sysconfigmanagercomchannel.cpp
+END
+sysconfigmanagersecurity.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/F270/!svn/ver/115/software/zynq7020/userapp/MainApp/Branches/ghl/SysConfigWidgetManager/sysconfigmanagersecurity.cpp
+END
+sysconfigmanagerbatchprocess.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/F270/!svn/ver/115/software/zynq7020/userapp/MainApp/Branches/ghl/SysConfigWidgetManager/sysconfigmanagerbatchprocess.cpp
+END
+sysconfigmanagerreport.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/F270/!svn/ver/115/software/zynq7020/userapp/MainApp/Branches/ghl/SysConfigWidgetManager/sysconfigmanagerreport.h
+END
+sysconfigmanagerethernet.h
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/F270/!svn/ver/115/software/zynq7020/userapp/MainApp/Branches/ghl/SysConfigWidgetManager/sysconfigmanagerethernet.h
+END
+sysconfigmanagerrecord.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/F270/!svn/ver/115/software/zynq7020/userapp/MainApp/Branches/ghl/SysConfigWidgetManager/sysconfigmanagerrecord.h
+END
+sysconfigmanagerserialport.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/F270/!svn/ver/115/software/zynq7020/userapp/MainApp/Branches/ghl/SysConfigWidgetManager/sysconfigmanagerserialport.cpp
+END
+sysconfigmanagersystem.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/F270/!svn/ver/115/software/zynq7020/userapp/MainApp/Branches/ghl/SysConfigWidgetManager/sysconfigmanagersystem.cpp
+END
+sysconfigmanagereventaction.h
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/F270/!svn/ver/115/software/zynq7020/userapp/MainApp/Branches/ghl/SysConfigWidgetManager/sysconfigmanagereventaction.h
+END
+sysconfigmanagertimer.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/F270/!svn/ver/115/software/zynq7020/userapp/MainApp/Branches/ghl/SysConfigWidgetManager/sysconfigmanagertimer.h
+END
+sysconfigmanageraichannel.h
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/F270/!svn/ver/115/software/zynq7020/userapp/MainApp/Branches/ghl/SysConfigWidgetManager/sysconfigmanageraichannel.h
+END
+sysconfigmanagerdichannel.h
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/F270/!svn/ver/115/software/zynq7020/userapp/MainApp/Branches/ghl/SysConfigWidgetManager/sysconfigmanagerdichannel.h
+END
+sysconfigmanagercalculatechannel.h
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/F270/!svn/ver/115/software/zynq7020/userapp/MainApp/Branches/ghl/SysConfigWidgetManager/sysconfigmanagercalculatechannel.h
+END
+sysconfigmanagersavedata.h
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/F270/!svn/ver/115/software/zynq7020/userapp/MainApp/Branches/ghl/SysConfigWidgetManager/sysconfigmanagersavedata.h
+END
+sysconfigmanagerdochannel.h
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/F270/!svn/ver/115/software/zynq7020/userapp/MainApp/Branches/ghl/SysConfigWidgetManager/sysconfigmanagerdochannel.h
+END
+sysconfigmanagermeasure.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/F270/!svn/ver/115/software/zynq7020/userapp/MainApp/Branches/ghl/SysConfigWidgetManager/sysconfigmanagermeasure.h
+END
+sysconfigmanagerdisplay.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/F270/!svn/ver/115/software/zynq7020/userapp/MainApp/Branches/ghl/SysConfigWidgetManager/sysconfigmanagerdisplay.h
+END
+sysconfigmanagerreport.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/F270/!svn/ver/115/software/zynq7020/userapp/MainApp/Branches/ghl/SysConfigWidgetManager/sysconfigmanagerreport.cpp
+END
+sysconfigmanagercomchannel.h
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/F270/!svn/ver/115/software/zynq7020/userapp/MainApp/Branches/ghl/SysConfigWidgetManager/sysconfigmanagercomchannel.h
+END
+sysconfigmanagersecurity.h
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/F270/!svn/ver/115/software/zynq7020/userapp/MainApp/Branches/ghl/SysConfigWidgetManager/sysconfigmanagersecurity.h
+END
+sysconfigmanagerethernet.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/F270/!svn/ver/115/software/zynq7020/userapp/MainApp/Branches/ghl/SysConfigWidgetManager/sysconfigmanagerethernet.cpp
+END
+sysconfigmanagerrecord.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/F270/!svn/ver/115/software/zynq7020/userapp/MainApp/Branches/ghl/SysConfigWidgetManager/sysconfigmanagerrecord.cpp
+END
+sysconfigmanagereventaction.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/F270/!svn/ver/115/software/zynq7020/userapp/MainApp/Branches/ghl/SysConfigWidgetManager/sysconfigmanagereventaction.cpp
+END
+sysconfigmanagertimer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/F270/!svn/ver/115/software/zynq7020/userapp/MainApp/Branches/ghl/SysConfigWidgetManager/sysconfigmanagertimer.cpp
+END
+sysconfigmanageraichannel.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/F270/!svn/ver/115/software/zynq7020/userapp/MainApp/Branches/ghl/SysConfigWidgetManager/sysconfigmanageraichannel.cpp
+END

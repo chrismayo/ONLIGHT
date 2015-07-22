@@ -1,0 +1,32 @@
+<RCC>
+    <qresource prefix="/keypad">
+        <file>Image/keypad/beij.png</file>
+        <file>Image/keypad/enter.bmp</file>
+        <file>Image/keypad/enter p.bmp</file>
+        <file>Image/keypad/fuhao.bmp</file>
+        <file>Image/keypad/fuhao p.bmp</file>
+        <file>Image/keypad/jianpan.bmp</file>
+        <file>Image/keypad/jianpanbg.bmp</file>
+        <file>Image/keypad/jianpanzb.bmp</file>
+        <file>Image/keypad/OK.bmp</file>
+        <file>Image/keypad/OK p.bmp</file>
+        <file>Image/keypad/shuru.bmp</file>
+        <file>Image/keypad/shuzi.bmp</file>
+        <file>Image/keypad/shuzi p.bmp</file>
+        <file>Image/keypad/space.bmp</file>
+        <file>Image/keypad/space_e.bmp</file>
+        <file>Image/keypad/space_ep.bmp</file>
+        <file>Image/keypad/space p.bmp</file>
+        <file>Image/keypad/ying.bmp</file>
+        <file>Image/keypad/ying p.bmp</file>
+        <file>Image/keypad/YOU.png</file>
+        <file>Image/keypad/YOU P.png</file>
+        <file>Image/keypad/zhong.bmp</file>
+        <file>Image/keypad/zhong p.bmp</file>
+        <file>Image/keypad/zuo.png</file>
+        <file>Image/keypad/zuo P.png</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>china.db</file>
+    </qresource>
+</RCC>

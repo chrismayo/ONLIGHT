@@ -1,0 +1,1776 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>softKeyPad</class>
+ <widget class="QWidget" name="softKeyPad">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1064</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>softKeyPad</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>113</y>
+     <width>1065</width>
+     <height>685</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/keypad/Image/keypad/beij.png);</string>
+   </property>
+   <widget class="QTextEdit" name="textEdit">
+    <property name="geometry">
+     <rect>
+      <x>54</x>
+      <y>24</y>
+      <width>781</width>
+      <height>158</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>AR PL UKai HK</family>
+      <pointsize>22</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_7">
+    <property name="geometry">
+     <rect>
+      <x>582</x>
+      <y>188</y>
+      <width>76</width>
+      <height>76</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/keypad/Image/keypad/shuzi.bmp);
+font-family:'Microsoft YaHei';font-size:30px;</string>
+    </property>
+    <property name="text">
+     <string>7</string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>142</x>
+      <y>188</y>
+      <width>76</width>
+      <height>76</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Microsoft YaHei</family>
+      <pointsize>-1</pointsize>
+     </font>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/keypad/Image/keypad/shuzi.bmp);
+font-family:'Microsoft YaHei';font-size:30px;</string>
+    </property>
+    <property name="text">
+     <string>2</string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>188</y>
+      <width>76</width>
+      <height>76</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/keypad/Image/keypad/shuzi.bmp);
+font-family:'Microsoft YaHei';font-size:30px;</string>
+    </property>
+    <property name="text">
+     <string>3</string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_5">
+    <property name="geometry">
+     <rect>
+      <x>406</x>
+      <y>188</y>
+      <width>76</width>
+      <height>76</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/keypad/Image/keypad/shuzi.bmp);
+font-family:'Microsoft YaHei';font-size:30px;</string>
+    </property>
+    <property name="text">
+     <string>5</string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_8">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>188</y>
+      <width>76</width>
+      <height>76</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/keypad/Image/keypad/shuzi.bmp);
+font-family:'Microsoft YaHei';font-size:30px;</string>
+    </property>
+    <property name="text">
+     <string>8</string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>318</x>
+      <y>188</y>
+      <width>76</width>
+      <height>76</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/keypad/Image/keypad/shuzi.bmp);
+font-family:'Microsoft YaHei';font-size:30px;</string>
+    </property>
+    <property name="text">
+     <string>4</string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_1">
+    <property name="geometry">
+     <rect>
+      <x>54</x>
+      <y>188</y>
+      <width>76</width>
+      <height>76</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/keypad/Image/keypad/shuzi.bmp);
+font-family:'Microsoft YaHei';font-size:30px;</string>
+    </property>
+    <property name="text">
+     <string>1</string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_9">
+    <property name="geometry">
+     <rect>
+      <x>758</x>
+      <y>188</y>
+      <width>76</width>
+      <height>76</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/keypad/Image/keypad/shuzi.bmp);
+font-family:'Microsoft YaHei';font-size:30px;</string>
+    </property>
+    <property name="text">
+     <string>9</string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_6">
+    <property name="geometry">
+     <rect>
+      <x>494</x>
+      <y>188</y>
+      <width>76</width>
+      <height>76</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/keypad/Image/keypad/shuzi.bmp);
+font-family:'Microsoft YaHei';font-size:30px;</string>
+    </property>
+    <property name="text">
+     <string>6</string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_left">
+    <property name="geometry">
+     <rect>
+      <x>846</x>
+      <y>106</y>
+      <width>76</width>
+      <height>76</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/keypad/Image/keypad/zuo.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_BS">
+    <property name="geometry">
+     <rect>
+      <x>846</x>
+      <y>24</y>
+      <width>76</width>
+      <height>76</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Microsoft YaHei</family>
+      <pointsize>-1</pointsize>
+     </font>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/keypad/Image/keypad/shuzi.bmp);
+font-family:'Microsoft YaHei';font-size:30px;</string>
+    </property>
+    <property name="text">
+     <string>BS</string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_DEL">
+    <property name="geometry">
+     <rect>
+      <x>934</x>
+      <y>24</y>
+      <width>76</width>
+      <height>76</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/keypad/Image/keypad/shuzi.bmp);
+font-family:'Microsoft YaHei';font-size:30px;</string>
+    </property>
+    <property name="text">
+     <string>DEL</string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_0">
+    <property name="geometry">
+     <rect>
+      <x>846</x>
+      <y>188</y>
+      <width>76</width>
+      <height>76</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/keypad/Image/keypad/shuzi.bmp);
+font-family:'Microsoft YaHei';font-size:30px;</string>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_right">
+    <property name="geometry">
+     <rect>
+      <x>934</x>
+      <y>106</y>
+      <width>76</width>
+      <height>76</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/keypad/Image/keypad/YOU.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_less">
+    <property name="geometry">
+     <rect>
+      <x>934</x>
+      <y>188</y>
+      <width>76</width>
+      <height>76</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/keypad/Image/keypad/shuzi.bmp);
+font-family:'Microsoft YaHei';font-size:30px;</string>
+    </property>
+    <property name="text">
+     <string>-</string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_T">
+    <property name="geometry">
+     <rect>
+      <x>406</x>
+      <y>270</y>
+      <width>76</width>
+      <height>76</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/keypad/Image/keypad/shuzi.bmp);
+font-family:'Microsoft YaHei';font-size:30px;</string>
+    </property>
+    <property name="text">
+     <string>T</string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_W">
+    <property name="geometry">
+     <rect>
+      <x>142</x>
+      <y>270</y>
+      <width>76</width>
+      <height>76</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/keypad/Image/keypad/shuzi.bmp);
+font-family:'Microsoft YaHei';font-size:30px;</string>
+    </property>
+    <property name="text">
+     <string>W</string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_Y">
+    <property name="geometry">
+     <rect>
+      <x>494</x>
+      <y>270</y>
+      <width>76</width>
+      <height>76</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/keypad/Image/keypad/shuzi.bmp);
+font-family:'Microsoft YaHei';font-size:30px;</string>
+    </property>
+    <property name="text">
+     <string>Y</string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_E">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>270</y>
+      <width>76</width>
+      <height>76</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/keypad/Image/keypad/shuzi.bmp);
+font-family:'Microsoft YaHei';font-size:30px;</string>
+    </property>
+    <property name="text">
+     <string>E</string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_Q">
+    <property name="geometry">
+     <rect>
+      <x>54</x>
+      <y>270</y>
+      <width>76</width>
+      <height>76</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/keypad/Image/keypad/shuzi.bmp);
+font-family:'Microsoft YaHei';font-size:30px;</string>
+    </property>
+    <property name="text">
+     <string>Q</string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_U">
+    <property name="geometry">
+     <rect>
+      <x>582</x>
+      <y>270</y>
+      <width>76</width>
+      <height>76</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/keypad/Image/keypad/shuzi.bmp);
+font-family:'Microsoft YaHei';font-size:30px;</string>
+    </property>
+    <property name="text">
+     <string>U</string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_R">
+    <property name="geometry">
+     <rect>
+      <x>318</x>
+      <y>270</y>
+      <width>76</width>
+      <height>76</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/keypad/Image/keypad/shuzi.bmp);
+font-family:'Microsoft YaHei';font-size:30px;</string>
+    </property>
+    <property name="text">
+     <string>R</string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_I">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>270</y>
+      <width>76</width>
+      <height>76</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/keypad/Image/keypad/shuzi.bmp);
+font-family:'Microsoft YaHei';font-size:30px;</string>
+    </property>
+    <property name="text">
+     <string>I</string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_more">
+    <property name="geometry">
+     <rect>
+      <x>934</x>
+      <y>270</y>
+      <width>76</width>
+      <height>76</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/keypad/Image/keypad/shuzi.bmp);
+font-family:'Microsoft YaHei';font-size:30px;</string>
+    </property>
+    <property name="text">
+     <string>+</string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_O">
+    <property name="geometry">
+     <rect>
+      <x>758</x>
+      <y>270</y>
+      <width>76</width>
+      <height>76</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/keypad/Image/keypad/shuzi.bmp);
+font-family:'Microsoft YaHei';font-size:30px;</string>
+    </property>
+    <property name="text">
+     <string>O</string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_P">
+    <property name="geometry">
+     <rect>
+      <x>846</x>
+      <y>270</y>
+      <width>76</width>
+      <height>76</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/keypad/Image/keypad/shuzi.bmp);
+font-family:'Microsoft YaHei';font-size:30px;</string>
+    </property>
+    <property name="text">
+     <string>P</string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_A">
+    <property name="geometry">
+     <rect>
+      <x>54</x>
+      <y>352</y>
+      <width>76</width>
+      <height>76</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/keypad/Image/keypad/shuzi.bmp);
+font-family:'Microsoft YaHei';font-size:30px;</string>
+    </property>
+    <property name="text">
+     <string>A</string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_J">
+    <property name="geometry">
+     <rect>
+      <x>582</x>
+      <y>352</y>
+      <width>76</width>
+      <height>76</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/keypad/Image/keypad/shuzi.bmp);
+font-family:'Microsoft YaHei';font-size:30px;</string>
+    </property>
+    <property name="text">
+     <string>J</string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_S">
+    <property name="geometry">
+     <rect>
+      <x>142</x>
+      <y>352</y>
+      <width>76</width>
+      <height>76</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/keypad/Image/keypad/shuzi.bmp);
+font-family:'Microsoft YaHei';font-size:30px;</string>
+    </property>
+    <property name="text">
+     <string>S</string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_D">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>352</y>
+      <width>76</width>
+      <height>76</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/keypad/Image/keypad/shuzi.bmp);
+font-family:'Microsoft YaHei';font-size:30px;</string>
+    </property>
+    <property name="text">
+     <string>D</string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_H">
+    <property name="geometry">
+     <rect>
+      <x>494</x>
+      <y>352</y>
+      <width>76</width>
+      <height>76</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/keypad/Image/keypad/shuzi.bmp);
+font-family:'Microsoft YaHei';font-size:30px;</string>
+    </property>
+    <property name="text">
+     <string>H</string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_G">
+    <property name="geometry">
+     <rect>
+      <x>406</x>
+      <y>352</y>
+      <width>76</width>
+      <height>76</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/keypad/Image/keypad/shuzi.bmp);
+font-family:'Microsoft YaHei';font-size:30px;</string>
+    </property>
+    <property name="text">
+     <string>G</string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_K">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>352</y>
+      <width>76</width>
+      <height>76</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/keypad/Image/keypad/shuzi.bmp);
+font-family:'Microsoft YaHei';font-size:30px;</string>
+    </property>
+    <property name="text">
+     <string>K</string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_L">
+    <property name="geometry">
+     <rect>
+      <x>758</x>
+      <y>352</y>
+      <width>76</width>
+      <height>76</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/keypad/Image/keypad/shuzi.bmp);
+font-family:'Microsoft YaHei';font-size:30px;</string>
+    </property>
+    <property name="text">
+     <string>L</string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_F">
+    <property name="geometry">
+     <rect>
+      <x>318</x>
+      <y>352</y>
+      <width>76</width>
+      <height>76</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/keypad/Image/keypad/shuzi.bmp);
+font-family:'Microsoft YaHei';font-size:30px;</string>
+    </property>
+    <property name="text">
+     <string>F</string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_slash">
+    <property name="geometry">
+     <rect>
+      <x>846</x>
+      <y>352</y>
+      <width>76</width>
+      <height>76</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/keypad/Image/keypad/shuzi.bmp);
+font-family:Microsoft YaHei;
+font-size:30px;</string>
+    </property>
+    <property name="text">
+     <string>/</string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_backSlash">
+    <property name="geometry">
+     <rect>
+      <x>934</x>
+      <y>352</y>
+      <width>76</width>
+      <height>76</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/keypad/Image/keypad/shuzi.bmp);
+font-family:Microsoft YaHei;
+font-size:30px;</string>
+    </property>
+    <property name="text">
+     <string>\</string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_Enter">
+    <property name="geometry">
+     <rect>
+      <x>846</x>
+      <y>352</y>
+      <width>163</width>
+      <height>76</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/keypad/Image/keypad/enter.bmp);
+font-family:Microsoft YaHei;
+font-size:30px;</string>
+    </property>
+    <property name="text">
+     <string>Enter</string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_M">
+    <property name="geometry">
+     <rect>
+      <x>582</x>
+      <y>434</y>
+      <width>76</width>
+      <height>76</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/keypad/Image/keypad/shuzi.bmp);
+font-family:'Microsoft YaHei';font-size:30px;</string>
+    </property>
+    <property name="text">
+     <string>M</string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_B">
+    <property name="geometry">
+     <rect>
+      <x>406</x>
+      <y>434</y>
+      <width>76</width>
+      <height>76</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/keypad/Image/keypad/shuzi.bmp);
+font-family:'Microsoft YaHei';font-size:30px;</string>
+    </property>
+    <property name="text">
+     <string>B</string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_X">
+    <property name="geometry">
+     <rect>
+      <x>142</x>
+      <y>434</y>
+      <width>76</width>
+      <height>76</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/keypad/Image/keypad/shuzi.bmp);
+font-family:'Microsoft YaHei';font-size:30px;</string>
+    </property>
+    <property name="text">
+     <string>X</string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_V">
+    <property name="geometry">
+     <rect>
+      <x>318</x>
+      <y>434</y>
+      <width>76</width>
+      <height>76</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/keypad/Image/keypad/shuzi.bmp);
+font-family:'Microsoft YaHei';font-size:30px;</string>
+    </property>
+    <property name="text">
+     <string>V</string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_N">
+    <property name="geometry">
+     <rect>
+      <x>494</x>
+      <y>434</y>
+      <width>76</width>
+      <height>76</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/keypad/Image/keypad/shuzi.bmp);
+font-family:'Microsoft YaHei';font-size:30px;</string>
+    </property>
+    <property name="text">
+     <string>N</string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_Period">
+    <property name="geometry">
+     <rect>
+      <x>758</x>
+      <y>434</y>
+      <width>76</width>
+      <height>76</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/keypad/Image/keypad/shuzi.bmp);
+font-family:'Microsoft YaHei';font-size:30px;</string>
+    </property>
+    <property name="text">
+     <string>。</string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_Z">
+    <property name="geometry">
+     <rect>
+      <x>54</x>
+      <y>434</y>
+      <width>76</width>
+      <height>76</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/keypad/Image/keypad/shuzi.bmp);
+font-family:'Microsoft YaHei';font-size:30px;</string>
+    </property>
+    <property name="text">
+     <string>Z</string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_C">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>434</y>
+      <width>76</width>
+      <height>76</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/keypad/Image/keypad/shuzi.bmp);
+font-family:'Microsoft YaHei';font-size:30px;</string>
+    </property>
+    <property name="text">
+     <string>C</string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_Comma">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>434</y>
+      <width>76</width>
+      <height>76</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/keypad/Image/keypad/shuzi.bmp);
+font-family:'Microsoft YaHei';font-size:30px;</string>
+    </property>
+    <property name="text">
+     <string>，</string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_Semicolon">
+    <property name="geometry">
+     <rect>
+      <x>846</x>
+      <y>434</y>
+      <width>76</width>
+      <height>76</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/keypad/Image/keypad/shuzi.bmp);
+font-family:'Microsoft YaHei';font-size:30px;</string>
+    </property>
+    <property name="text">
+     <string>；</string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_Colon">
+    <property name="geometry">
+     <rect>
+      <x>934</x>
+      <y>434</y>
+      <width>76</width>
+      <height>76</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/keypad/Image/keypad/shuzi.bmp);
+font-family:'Microsoft YaHei';font-size:30px;</string>
+    </property>
+    <property name="text">
+     <string>：</string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_ZH">
+    <property name="geometry">
+     <rect>
+      <x>758</x>
+      <y>516</y>
+      <width>76</width>
+      <height>76</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/keypad/Image/keypad/shuzi.bmp);
+font-family:Microsoft YaHei;
+font-size:30px;</string>
+    </property>
+    <property name="text">
+     <string>ZH</string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_SH">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>516</y>
+      <width>76</width>
+      <height>76</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/keypad/Image/keypad/shuzi.bmp);
+font-family:Microsoft YaHei;
+font-size:30px;</string>
+    </property>
+    <property name="text">
+     <string>SH</string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_CH">
+    <property name="geometry">
+     <rect>
+      <x>582</x>
+      <y>516</y>
+      <width>76</width>
+      <height>76</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/keypad/Image/keypad/shuzi.bmp);
+font-family:Microsoft YaHei;
+font-size:30px;</string>
+    </property>
+    <property name="text">
+     <string>CH</string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_Space">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>516</y>
+      <width>340</width>
+      <height>76</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/keypad/Image/keypad/space.bmp);
+font-family:Microsoft YaHei;
+font-size:30px;</string>
+    </property>
+    <property name="text">
+     <string>SPACE</string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_LeftShift">
+    <property name="geometry">
+     <rect>
+      <x>54</x>
+      <y>516</y>
+      <width>164</width>
+      <height>76</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/keypad/Image/keypad/enter.bmp);
+font-family:Microsoft YaHei;
+font-size:30px;</string>
+    </property>
+    <property name="text">
+     <string>Shift</string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_RightShift">
+    <property name="geometry">
+     <rect>
+      <x>846</x>
+      <y>516</y>
+      <width>164</width>
+      <height>76</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/keypad/Image/keypad/enter.bmp);
+font-family:'Microsoft YaHei';font-size:30px;</string>
+    </property>
+    <property name="text">
+     <string>Shift</string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_China">
+    <property name="geometry">
+     <rect>
+      <x>474</x>
+      <y>618</y>
+      <width>117</width>
+      <height>52</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/keypad/Image/keypad/zhong.bmp);
+font-family:Microsoft YaHei;
+font-size:30px;
+color:white</string>
+    </property>
+    <property name="text">
+     <string>中</string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_Symbol">
+    <property name="geometry">
+     <rect>
+      <x>591</x>
+      <y>618</y>
+      <width>119</width>
+      <height>52</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/keypad/Image/keypad/fuhao.bmp);
+font-family:Microsoft YaHei;
+font-size:30px;
+color:white</string>
+    </property>
+    <property name="text">
+     <string>符号</string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_Cancel">
+    <property name="geometry">
+     <rect>
+      <x>54</x>
+      <y>618</y>
+      <width>124</width>
+      <height>57</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Microsoft YaHei</family>
+      <pointsize>-1</pointsize>
+     </font>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/keypad/Image/keypad/OK.bmp);
+font-family:Microsoft YaHei;
+font-size:30px;
+color:white</string>
+    </property>
+    <property name="text">
+     <string>取消</string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_English">
+    <property name="geometry">
+     <rect>
+      <x>354</x>
+      <y>618</y>
+      <width>120</width>
+      <height>52</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/keypad/Image/keypad/ying.bmp);
+font-family:Microsoft YaHei;
+font-size:30px;
+color:white</string>
+    </property>
+    <property name="text">
+     <string>英</string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_OK">
+    <property name="geometry">
+     <rect>
+      <x>886</x>
+      <y>618</y>
+      <width>124</width>
+      <height>52</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/keypad/Image/keypad/OK.bmp);
+font-family:Microsoft YaHei;
+font-size:30px;
+color:white</string>
+    </property>
+    <property name="text">
+     <string>确定</string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_Space_e">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>516</y>
+      <width>604</width>
+      <height>76</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/keypad/Image/keypad/space_e.bmp);
+font-family:Microsoft YaHei;
+font-size:30px;</string>
+    </property>
+    <property name="text">
+     <string>SPACE</string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QWidget" name="showTxt" native="true">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>100</y>
+      <width>771</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <widget class="QPushButton" name="btn8">
+     <property name="geometry">
+      <rect>
+       <x>614</x>
+       <y>0</y>
+       <width>70</width>
+       <height>70</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-image: url(:/keypad/Image/keypad/shuzi.bmp);
+font-family:'Microsoft YaHei';font-size:30px;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn4">
+     <property name="geometry">
+      <rect>
+       <x>310</x>
+       <y>0</y>
+       <width>70</width>
+       <height>70</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-image: url(:/keypad/Image/keypad/shuzi.bmp);
+font-family:'Microsoft YaHei';font-size:30px;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn7">
+     <property name="geometry">
+      <rect>
+       <x>538</x>
+       <y>0</y>
+       <width>70</width>
+       <height>70</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-image: url(:/keypad/Image/keypad/shuzi.bmp);
+font-family:'Microsoft YaHei';font-size:30px;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn6">
+     <property name="geometry">
+      <rect>
+       <x>462</x>
+       <y>0</y>
+       <width>70</width>
+       <height>70</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-image: url(:/keypad/Image/keypad/shuzi.bmp);
+font-family:'Microsoft YaHei';font-size:30px;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_leftTurn">
+     <property name="geometry">
+      <rect>
+       <x>6</x>
+       <y>0</y>
+       <width>70</width>
+       <height>70</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-image: url(:/keypad/Image/keypad/shuzi.bmp);
+font-family:'Microsoft YaHei';font-size:30px;</string>
+     </property>
+     <property name="text">
+      <string>&lt;&lt;</string>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn5">
+     <property name="geometry">
+      <rect>
+       <x>386</x>
+       <y>0</y>
+       <width>70</width>
+       <height>70</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-image: url(:/keypad/Image/keypad/shuzi.bmp);
+font-family:'Microsoft YaHei';font-size:30px;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn1">
+     <property name="geometry">
+      <rect>
+       <x>82</x>
+       <y>0</y>
+       <width>70</width>
+       <height>70</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-image: url(:/keypad/Image/keypad/shuzi.bmp);
+font-family:'Microsoft YaHei';font-size:30px;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn3">
+     <property name="geometry">
+      <rect>
+       <x>234</x>
+       <y>0</y>
+       <width>70</width>
+       <height>70</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-image: url(:/keypad/Image/keypad/shuzi.bmp);
+font-family:'Microsoft YaHei';font-size:30px;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn2">
+     <property name="geometry">
+      <rect>
+       <x>158</x>
+       <y>0</y>
+       <width>70</width>
+       <height>70</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-image: url(:/keypad/Image/keypad/shuzi.bmp);
+font-family:'Microsoft YaHei';font-size:30px;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_rightTurn">
+     <property name="geometry">
+      <rect>
+       <x>690</x>
+       <y>0</y>
+       <width>70</width>
+       <height>70</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-image: url(:/keypad/Image/keypad/shuzi.bmp);
+font-family:'Microsoft YaHei';font-size:30px;</string>
+     </property>
+     <property name="text">
+      <string>&gt;&gt;</string>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_letter">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>60</y>
+      <width>761</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Ubuntu</family>
+      <pointsize>22</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Box</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Sunken</enum>
+    </property>
+    <property name="lineWidth">
+     <number>1</number>
+    </property>
+    <property name="midLineWidth">
+     <number>0</number>
+    </property>
+    <property name="verticalScrollBarPolicy">
+     <enum>Qt::ScrollBarAlwaysOff</enum>
+    </property>
+    <property name="horizontalScrollBarPolicy">
+     <enum>Qt::ScrollBarAlwaysOff</enum>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

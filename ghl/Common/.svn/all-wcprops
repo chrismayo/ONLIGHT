@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/F270/!svn/ver/139/software/zynq7020/userapp/MainApp/Branches/ghl/Common
+END
+sysconfigslidingscreen.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/F270/!svn/ver/115/software/zynq7020/userapp/MainApp/Branches/ghl/Common/sysconfigslidingscreen.cpp
+END
+softkeypad.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/F270/!svn/ver/141/software/zynq7020/userapp/MainApp/Branches/ghl/Common/softkeypad.h
+END
+dataqueryrtd.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/F270/!svn/ver/115/software/zynq7020/userapp/MainApp/Branches/ghl/Common/dataqueryrtd.h
+END
+mathexpanalysis.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/F270/!svn/ver/115/software/zynq7020/userapp/MainApp/Branches/ghl/Common/mathexpanalysis.h
+END
+sysconfigslidingscreen.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/F270/!svn/ver/115/software/zynq7020/userapp/MainApp/Branches/ghl/Common/sysconfigslidingscreen.h
+END
+sysconfignaviwidget.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/F270/!svn/ver/115/software/zynq7020/userapp/MainApp/Branches/ghl/Common/sysconfignaviwidget.cpp
+END
+dataquerytc.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/F270/!svn/ver/115/software/zynq7020/userapp/MainApp/Branches/ghl/Common/dataquerytc.cpp
+END
+slidingscreen.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/F270/!svn/ver/139/software/zynq7020/userapp/MainApp/Branches/ghl/Common/slidingscreen.cpp
+END
+dataquerytc.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/F270/!svn/ver/115/software/zynq7020/userapp/MainApp/Branches/ghl/Common/dataquerytc.h
+END
+sysconfignaviwidget.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/F270/!svn/ver/115/software/zynq7020/userapp/MainApp/Branches/ghl/Common/sysconfignaviwidget.h
+END
+slidingscreen.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/F270/!svn/ver/139/software/zynq7020/userapp/MainApp/Branches/ghl/Common/slidingscreen.h
+END
+sysconfigoptionwidget.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/F270/!svn/ver/115/software/zynq7020/userapp/MainApp/Branches/ghl/Common/sysconfigoptionwidget.cpp
+END
+softkeypad.ui
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/F270/!svn/ver/133/software/zynq7020/userapp/MainApp/Branches/ghl/Common/softkeypad.ui
+END
+sysconfigoptionwidget.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/F270/!svn/ver/115/software/zynq7020/userapp/MainApp/Branches/ghl/Common/sysconfigoptionwidget.h
+END
+dataqueryrtd.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/F270/!svn/ver/115/software/zynq7020/userapp/MainApp/Branches/ghl/Common/dataqueryrtd.cpp
+END
+softkeypad.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/F270/!svn/ver/141/software/zynq7020/userapp/MainApp/Branches/ghl/Common/softkeypad.cpp
+END
+mathexpanalysis.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/F270/!svn/ver/115/software/zynq7020/userapp/MainApp/Branches/ghl/Common/mathexpanalysis.cpp
+END
