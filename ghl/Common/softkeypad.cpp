@@ -51,6 +51,12 @@ SoftKeyPad::SoftKeyPad(QWidget *parent) :
   , inputStr("")
 {
     ui->setupUi(this);
+    showFullScreen();
+    int i = this->height();
+    qDebug() << "height is " << i;
+
+    int j = this->width();
+    qDebug() << "widget is " << j;
     QTextCodec::setCodecForLocale(QTextCodec::codecForName("UTF-8"));
 
     /**************** 设置提示信息 ************/

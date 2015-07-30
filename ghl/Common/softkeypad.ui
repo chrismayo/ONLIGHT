@@ -23,7 +23,7 @@
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-image: url(:/keypad/Image/keypad/beij.png);</string>
+    <string notr="true">background-color: rgb(245, 237, 237);</string>
    </property>
    <widget class="QTextEdit" name="textEdit">
     <property name="geometry">

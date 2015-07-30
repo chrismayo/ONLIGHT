@@ -23,7 +23,8 @@
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-image: url(:/image/beij.png);</string>
+    <string notr="true">background-image: url(:/image/beij.png);
+</string>
    </property>
    <widget class="QTextEdit" name="textEdit">
     <property name="geometry">
