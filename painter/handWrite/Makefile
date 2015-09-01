@@ -783,7 +783,22 @@ handwrite.o: handwrite.cpp handwrite.h \
 		../../../Qt5.3.2/5.3/gcc/include/QtGui/QPainter \
 		../../../Qt5.3.2/5.3/gcc/include/QtGui/qpainter.h \
 		../../../Qt5.3.2/5.3/gcc/include/QtGui/qtextoption.h \
-		../../../Qt5.3.2/5.3/gcc/include/QtGui/qpen.h
+		../../../Qt5.3.2/5.3/gcc/include/QtGui/qpen.h \
+		../../../Qt5.3.2/5.3/gcc/include/QtCore/QDebug \
+		../../../Qt5.3.2/5.3/gcc/include/QtWidgets/QApplication \
+		../../../Qt5.3.2/5.3/gcc/include/QtWidgets/qapplication.h \
+		../../../Qt5.3.2/5.3/gcc/include/QtCore/qcoreapplication.h \
+		../../../Qt5.3.2/5.3/gcc/include/QtCore/qeventloop.h \
+		../../../Qt5.3.2/5.3/gcc/include/QtWidgets/qdesktopwidget.h \
+		../../../Qt5.3.2/5.3/gcc/include/QtGui/qguiapplication.h \
+		../../../Qt5.3.2/5.3/gcc/include/QtGui/qinputmethod.h \
+		../../../Qt5.3.2/5.3/gcc/include/QtWidgets/QDesktopWidget \
+		../../../Qt5.3.2/5.3/gcc/include/QtWidgets/QPushButton \
+		../../../Qt5.3.2/5.3/gcc/include/QtWidgets/qpushbutton.h \
+		../../../Qt5.3.2/5.3/gcc/include/QtWidgets/qabstractbutton.h \
+		../../../Qt5.3.2/5.3/gcc/include/QtGui/qicon.h \
+		../../../Qt5.3.2/5.3/gcc/include/QtWidgets/QButtonGroup \
+		../../../Qt5.3.2/5.3/gcc/include/QtWidgets/qbuttongroup.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o handwrite.o handwrite.cpp
 
 moc_handwrite.o: moc_handwrite.cpp 

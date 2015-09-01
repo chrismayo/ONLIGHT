@@ -31,17 +31,21 @@ protected:
     void mousePressEvent(QMouseEvent* event);
     void mouseMoveEvent(QMouseEvent* event);
     void mouseReleaseEvent(QMouseEvent* event);
-    void paint(QImage& theImage);
 
 private slots:
     void slotSelectPalette(int id);
     void slotPaletteButtonClicked();
+    void slotCancelButtonClicked();
+    void slotIndividualSave();
+    void slotCommonSave();
+    void slotPenButtonClicked();
 private:
     void drawImage();
     void setSizeOfWindows();
     void setFrameWidget();
     void setPaletteWidget();
     void setPaletteGroup();
+    void paint(QImage& theImage);
 private:
     QImage  image;
     QPoint lastPoint,endPoint;
@@ -53,8 +57,8 @@ private:
     QPushButton* paletteButton;
     QPushButton* eraserButton;
     QPushButton* undoButton;
-    QPushButton* tempNameButton1;
-    QPushButton* tempNameButton2;
+    QPushButton* individualSave;
+    QPushButton* commonSave;
     QPushButton* blackSlim;
     QPushButton* blackCommon;
     QPushButton* blackThick;
@@ -67,6 +71,7 @@ private:
     int current_heigh;
     int current_width;
     int paletteChoice;
+    int paletteChoice_bak;
 };
 
 #endif // HANDWRITE_H

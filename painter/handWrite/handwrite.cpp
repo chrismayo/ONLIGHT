@@ -17,8 +17,8 @@ HandWrite::HandWrite(QWidget *parent)
     , paletteButton(NULL)
     , eraserButton(NULL)
     , undoButton(NULL)
-    , tempNameButton1(NULL)
-    , tempNameButton2(NULL)
+    , individualSave(NULL)
+    , commonSave(NULL)
     , blackSlim(NULL)
     , blackCommon(NULL)
     , blackThick(NULL)
@@ -29,6 +29,7 @@ HandWrite::HandWrite(QWidget *parent)
     , blueCommon(NULL)
     , blueThick(NULL)
     , paletteChoice(1)
+    , paletteChoice_bak(1)
 {
     setAttribute(Qt::WA_TranslucentBackground, true);
     setSizeOfWindows();
@@ -39,6 +40,10 @@ HandWrite::HandWrite(QWidget *parent)
     paletteWidget->setHidden(true);
     connect(paletteGroup, SIGNAL(buttonClicked(int)), this, SLOT(slotSelectPalette(int)));
     connect(paletteButton, SIGNAL(clicked()), this, SLOT(slotPaletteButtonClicked()));
+    connect(cancelButton, SIGNAL(clicked()), this, SLOT(slotCancelButtonClicked()));
+    connect(individualSave, SIGNAL(clicked()), this, SLOT(slotIndividualSave()));
+    connect(commonSave, SIGNAL(clicked()), this, SLOT(slotCommonSave()));
+    connect(penButton, SIGNAL(clicked()), this, SLOT(slotPenButtonClicked()));
 }
 
 HandWrite::~HandWrite()
@@ -87,30 +92,39 @@ void HandWrite::paint(QImage &theImage)
     draw.setPen(QPen(Qt::black, 1, Qt::SolidLine, Qt::RoundCap));
     switch (paletteChoice) {
     case Choice_BlackSlim:
+        paletteChoice_bak = Choice_BlackSlim;
         draw.setPen(QPen(Qt::black, 1, Qt::SolidLine, Qt::RoundCap));
         break;
     case Choice_BlackCommon:
+        paletteChoice_bak = Choice_BlackCommon;
         draw.setPen(QPen(Qt::black, 2, Qt::SolidLine, Qt::RoundCap));
         break;
     case Choice_BlackThick:
+        paletteChoice_bak = Choice_BlackThick;
         draw.setPen(QPen(Qt::black, 4, Qt::SolidLine, Qt::RoundCap));
         break;
     case Choice_RedSlim:
+        paletteChoice_bak = Choice_RedSlim;
         draw.setPen(QPen(Qt::red, 1, Qt::SolidLine, Qt::RoundCap));
         break;
     case Choice_RedCommon:
+        paletteChoice_bak = Choice_RedCommon;
         draw.setPen(QPen(Qt::red, 2, Qt::SolidLine, Qt::RoundCap));
         break;
     case Choice_RedThick:
+        paletteChoice_bak = Choice_RedThick;
         draw.setPen(QPen(Qt::red, 4, Qt::SolidLine, Qt::RoundCap));
         break;
     case Choice_BlueSlim:
+        paletteChoice_bak = Choice_RedThick;
         draw.setPen(QPen(Qt::blue, 1, Qt::SolidLine, Qt::RoundCap));
         break;
     case Choice_BlueCommon:
+        paletteChoice_bak = Choice_BlueCommon;
         draw.setPen(QPen(Qt::blue, 2, Qt::SolidLine, Qt::RoundCap));
         break;
     case Choice_BlueThick:
+        paletteChoice_bak = Choice_BlueThick;
         draw.setPen(QPen(Qt::blue, 4, Qt::SolidLine, Qt::RoundCap));
         break;
     case Choice_Eraser:
@@ -174,6 +188,36 @@ void HandWrite::slotPaletteButtonClicked()
     paletteWidget->setHidden(false);
 }
 
+void HandWrite::slotCancelButtonClicked()
+{
+    this->close();
+}
+
+void HandWrite::slotIndividualSave()
+{
+    if(image.save("tempA.jpg", "JPG")) {
+        qDebug() << "save ok";
+    } else {
+        qDebug() << "save error";
+    }
+}
+
+void HandWrite::slotCommonSave()
+{
+    if(image.save("tempB.jpg", "JPG")) {
+        qDebug() << "save ok";
+    } else {
+        qDebug() << "save error";
+    }
+}
+
+void HandWrite::slotPenButtonClicked()
+{
+    paletteChoice = paletteChoice_bak;
+    paint(image);
+}
+
+
 void HandWrite::drawImage()
 {
     image = QImage((int)(current_width * 0.8), (int)(current_heigh * 0.9), QImage::Format_RGB32);
@@ -197,13 +241,13 @@ void HandWrite::setFrameWidget()
     cancelButton->setGeometry(0, 0, (int)(0.1 * current_width), (int)(0.06 * current_heigh));
 
     /////////////////////////////////////////////////////////////////////////////////////////
-    tempNameButton1 = new QPushButton(frameWidget);
-    tempNameButton1->setText(tr("Save as"));
-    tempNameButton1->setGeometry(0, (int)(0.94 * current_heigh), (int)(0.1 * current_width), (int)(0.06 * current_heigh));
+    individualSave = new QPushButton(frameWidget);
+    individualSave->setText(tr("common saving"));
+    individualSave->setGeometry(0, (int)(0.94 * current_heigh), (int)(0.1 * current_width), (int)(0.06 * current_heigh));
 
-    tempNameButton2 = new QPushButton(frameWidget);
-    tempNameButton2->setText(tr("Save"));
-    tempNameButton2->setGeometry(0, (int)(0.88 * current_heigh), (int)(0.1 * current_width), (int)(0.06 * current_heigh));
+    commonSave = new QPushButton(frameWidget);
+    commonSave->setText(tr("individual saving"));
+    commonSave->setGeometry(0, (int)(0.88 * current_heigh), (int)(0.1 * current_width), (int)(0.06 * current_heigh));
 
     ///////////////////////////////////////////////////////////////////////////////////////////
 

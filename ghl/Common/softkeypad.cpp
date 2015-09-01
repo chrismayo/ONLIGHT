@@ -674,7 +674,20 @@ void SoftKeyPad::connectDatabase()
 {
     /**************** 添加sqlite数据库驱动 ************/
     db = QSqlDatabase::addDatabase("QSQLITE");
-    db.setDatabaseName("china.db");
+    db.setDatabaseName("test.db");
+//    if (QSqlDatabase::contains("china.db")) {
+//        db = QSqlDatabase::database("china.db");
+//    } else {
+//         db = QSqlDatabase::addDatabase("QSQLITE", "china.db");
+//         db.setDatabaseName("china.db");
+//    }
+    if(db.open()) {
+        qDebug() << "db open successful!";
+    } else {
+        qDebug() << "db open failure!";
+    }
+
+    query = QSqlQuery(db);
     if(db.open()) {
         qDebug() << "db open successful!";
     } else {
